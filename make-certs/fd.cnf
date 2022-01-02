@@ -1,0 +1,15 @@
+[req]
+prompt = no
+distinguished_name = dn
+req_extensions = ext
+input_password = pass
+
+[dn]
+CN = shuuji3.xyz
+emailAddress = shuuji3@gmail.com
+O = TAKAHASHI Shuuji
+L = Bunkyo
+C = JP
+
+[ext]
+subjectAltName = DNS:www.shuuji3.xyz,DNS:shuuji3.xyz
